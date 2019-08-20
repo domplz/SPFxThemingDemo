@@ -1,3 +1,7 @@
+// Sources:
+// https://n8d.at/blog/how-to-use-theme-colors-in-spfx-web-parts
+// https://docs.microsoft.com/en-us/sharepoint/dev/design/themes-colors
+
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 import "./ThemingTestWebPart.scss";
 
