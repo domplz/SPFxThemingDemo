@@ -1,6 +1,7 @@
 ## theming-test
 
-This is where you include your WebPart documentation.
+Demo for SPFx Theming Colors.
+Displaying the color pallete with the available theming colors using SCSS.
 
 ### Building the code
 
