@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "theming-test-client-side-solution",
+    "id": "4994db31-275d-435c-b0bf-e6119f6eccb5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/theming-test.sppkg"
+  }
+}

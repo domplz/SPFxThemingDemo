@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c07313ae-6cb5-4aa4-b9be-777c7a0b1cd1",
+  "alias": "ThemingTestWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "ThemingTest" },
+    "description": { "default": "ThemingTest description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ThemingTest"
+    }
+  }]
+}

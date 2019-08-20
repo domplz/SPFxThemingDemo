@@ -1,0 +1,46 @@
+
+// source: https://docs.microsoft.com/en-us/sharepoint/dev/design/themes-colors#shades-and-tints
+$themeDarker:                "[theme:themeDarker, default:#004578]";
+$themeDark:                  "[theme:themeDark, default:#005a9e]";
+$themeDarkAlt:               "[theme:themeDarkAlt, default:#106ebe]";
+$themePrimary:               "[theme:themePrimary, default:#0078d4]";
+$themeSecondary:             "[theme:themeSecondary, default:#2b88d8]";
+$themeTertiary:              "[theme:themeTertiary, default:#71afe5]";
+$themeLight:                 "[theme:themeLight, default:#c7e0f4]";
+$themeLighter:               "[theme:themeLighter, default:#deecf9]";
+$themeLighterAlt:            "[theme:themeLighterAlt, default:#eff6fc]";
+
+.themingTest{
+    div.colorbox {
+        height: 50px;
+        text-align: center;
+
+        &.themeDarker {
+            background-color: $themeDarker;
+        }
+        &.themeDark {
+            background-color: $themeDark;
+        }
+        &.themeDarkAlt {
+            background-color: $themeDarkAlt;
+        }
+        &.themePrimary {
+            background-color: $themePrimary;
+        }
+        &.themeSecondary {
+            background-color: $themeSecondary;
+        }
+        &.themeTertiary {
+            background-color: $themeTertiary;
+        }
+        &.themeLight {
+            background-color: $themeLight;
+        }
+        &.themeLighter {
+            background-color: $themeLighter;
+        }
+        &.themeLighterAlt {
+            background-color: $themeLighterAlt;
+        }
+    }
+}
